@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.title {
+    margin: 0;
+    height: inherit;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-family: "Helvetica";
+    font-size: 200%;
+    height: auto;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+#container {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    
+}
+#top-row {
+    height: 62%;
+}
+#home {
+    background-color: #ff6138;
+    color: #ffff9d;
+    float: left;
+    width: 38%;
+    height: 100%;
+}
+#portfolio {
+    background-color: #ffff9d;
+    color: #ff6138;
+    float: left;
+    width: 62%;
+    height: 100%;
+}
+#bottom-row {
+    clear: both;
+    height: 38%;
+}
+.bottomRow {
+    clear: both;
+    height: 200px;
+}
+#about {
+    background-color: #beeb9f;
+    color: #00a388;
+    float: left;
+    width: 38%;
+    height: 100%;
+}
+#contact {
+    background-color: #79bd8f;
+    color: #ffff9d;
+    float: left;
+    width: 38%;
+    height: 100%;
+}
+#blog {
+    background-color: #00a388;
+    color: #beeb9f;
+    float: left;
+    width: 24%;
+    height: 100%;
+}
